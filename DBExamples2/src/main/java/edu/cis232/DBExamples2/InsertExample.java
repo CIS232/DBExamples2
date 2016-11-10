@@ -19,6 +19,8 @@ public class InsertExample {
 		stmt.executeUpdate(sql);
 		
 		conn.close();
+		
+		System.out.println("Inserted Coffee!");
 	}
 
 }
