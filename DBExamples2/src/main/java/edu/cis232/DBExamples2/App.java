@@ -21,7 +21,7 @@ public class App
     	//Optional Filter (where CONDITIONS)
     	//Optional Ordering (order by columnNames desc)
     	
-    	String sqlStatement = "SELECT * FROM COFFEE ORDER BY PRICE";
+    	String sqlStatement = "SELECT * FROM COFFEE ORDER BY DESCRIPTION";
     	
     	Connection conn = DriverManager.getConnection(DB_URL);
     	
